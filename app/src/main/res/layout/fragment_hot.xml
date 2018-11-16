@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.youth.banner.Banner xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/banner1"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:indicator_drawable_selected="@drawable/selected_radius" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="股票（stock）是股份公司发行的所有权凭证，是股份公司为筹集资金而发行给各个股东作为持股凭证并借以取得股息和红利的一种有价证券。每股股票都代表股东对企业拥有一个基本单位的所有权。每家上市公司都会发行股票。
+同一类别的每一份股票所代表的公司所有权是相等的。每个股东所拥有的公司所有权份额的大小，取决于其持有的股票数量占公司总股本的比重。
+股票是股份公司资本的构成部分，可以转让、买卖，是资本市场的主要长期信用工具，但不能要求公司返还其出资。"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+    <Button
+        android:id="@+id/bt_look"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/button_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="市场行情"
+        />
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:id="@+id/bt_add"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/button_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="抛售股票"
+        />
+    </LinearLayout>
+</LinearLayout>
